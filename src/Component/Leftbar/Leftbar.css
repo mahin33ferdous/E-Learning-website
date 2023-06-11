@@ -1,0 +1,9 @@
+.category-container{
+    display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 46px;
+ margin: 100px 50px;
+    
+   
+    
+}
