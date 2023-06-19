@@ -4,6 +4,8 @@ import Register from "../../Component/Register/Register";
 import Header from "../../Component/Header/Header";
 import Main from "../../Component/Layout/Main/Main";
 import Home from "../../Page/Home/Home";
+import CategoryCourses from "../../Page/CategoryCourses/CategoryCourses";
+import CourseDetails from "../../Page/CourseDetails/CourseDetails";
 
 export const routes= createBrowserRouter([
 
@@ -16,8 +18,18 @@ export const routes= createBrowserRouter([
                 path:"/",
                 element:<Home></Home>
                },
-        
-           
+
+          {
+                path:"/category/:id",
+                element:<CategoryCourses></CategoryCourses>,
+                loader:({params})=>fetch(`http://localhost:5001/category/${params.id}`)
+               },
+
+           {
+                path:"/courses/:id",
+                element:<CourseDetails></CourseDetails>,
+                loader:({params})=>fetch(`http://localhost:5001/courses/${params.id}`)
+               },
            
             {
         

@@ -9,14 +9,7 @@ const Main = () => {
     return (
         <div>
             <Header></Header>
-            <Container>
-                <Row>
-                    <Col>
-                     <Outlet></Outlet>
-                    </Col>
-                </Row>
-                <Leftbar></Leftbar>
-            </Container>
+            <Outlet></Outlet>
             <Footer></Footer>
         </div>
     );

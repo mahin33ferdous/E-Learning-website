@@ -15,14 +15,16 @@ const Leftbar = () => {
 
     return (
         <div>
-            <h1>l: {categories.length}</h1>
-            <div className='category-container'>
+            <div className='wrapper'>
+      <h1>Domain</h1>
+            <div className='container'>
             {
                     categories.map(category=><Category1 key={category.id}
                                                         category={category}
                     ></Category1>)}
             </div>
            
+        </div>
         </div>
     );
 };

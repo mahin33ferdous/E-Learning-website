@@ -24,7 +24,7 @@ const Header = () => {
     const handleShow = () => setShow(true);
     return (
         <div>
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
       <Container>
         <Navbar.Brand href="#home">E-Learning</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
