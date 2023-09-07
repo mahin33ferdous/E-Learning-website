@@ -8,7 +8,7 @@ const Footer = () => {
 
             
         <div className="footer-left">
-            <h3>Sagar<span>Developer</span></h3>
+            <h3>E<span>Learning</span></h3>
 
             <p className="footer-links">
                 <a href="#">Home</a>
@@ -20,19 +20,19 @@ const Footer = () => {
                 <a href="#">Blog</a>
             </p>
 
-            <p className="footer-company-name">Copyright © 2021 <strong>SagarDeveloper</strong> All rights reserved</p>
+            <p className="footer-company-name">Copyright © 2021 <strong>E-Learning</strong> All rights reserved</p>
         </div>
 
         <div className="footer-center">
             <div>
                 <i className="fa fa-map-marker"></i>
-                <p><span>Ghaziabad</span>
-                    Delhi</p>
+                <p><span>Banani</span>
+                    Dhaka</p>
             </div>
 
             <div>
                 <i className="fa fa-phone"></i>
-                <p>+91 74**9**258</p>
+                <p>+880168*****</p>
             </div>
             <div>
                 <i class="fa fa-envelope"></i>
@@ -43,10 +43,10 @@ const Footer = () => {
         <div className="footer-right">
             <p className="footer-company-about">
                 <span>About the company</span>
-                <strong>Sagar Developer</strong> is a Youtube channel where you can find more creative CSS Animations
+                <strong>E-Learning</strong> is a oranization where you can find more creative knowladge CSS on coumputer technology
                 and
-                Effects along with
-                HTML, JavaScript and Projects using C/C++.
+                Arificall intelligence along with
+                Meachine learning, Blockchain and Projects using C/C++.
             </p>
             <div className="footer-icons">
                 <a href="#"><i class="fa fa-facebook"></i></a>
