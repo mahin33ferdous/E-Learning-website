@@ -2,3 +2,15 @@
     background-color: black;
     text-align: center;
 }
+
+.card-container{
+    width: 100%;
+    background-color: bisque;
+}
+
+.cardbox{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

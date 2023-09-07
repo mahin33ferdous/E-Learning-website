@@ -92,4 +92,24 @@ h1{
     .wrapper{
         padding: 20px;
     }
+
+    .container{
+    
+        width: 85%;
+        margin: 50px auto;
+        display: grid;
+        gap:35px;
+        grid-template-columns: repeat(2,1fr) ;
+    }
+}
+
+@media(max-width:600px){
+    .container{
+    
+        width: 85%;
+        margin: 50px auto;
+        display: grid;
+        gap:35px;
+        grid-template-columns: repeat(1,1fr) ;
+    }
 }

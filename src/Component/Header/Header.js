@@ -9,6 +9,7 @@ import { AuthContext } from '../../Context/AuthProvider/AuthProvider';
 import { Button, Image } from 'react-bootstrap';
 import { FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import '../Header/Header.css'
 
 
 const Header = () => {
@@ -24,9 +25,10 @@ const Header = () => {
     const handleShow = () => setShow(true);
     return (
         <div>
+          <div className='header'>
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
       <Container>
-        <Navbar.Brand href="#home">E-Learning</Navbar.Brand>
+        <Navbar.Brand href="/">E-Learning</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -66,6 +68,7 @@ const Header = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
     <LoginModal show={show}
      handleClose={handleClose}
      handleShow={handleShow}

@@ -6,17 +6,13 @@ import '../CourseCard/CourseCard.css'
 import { Link } from 'react-router-dom';
 
 const CourseCard = ({Cc}) => {
-    const{title,rating}=Cc;
+    const{title,rating,image_url}=Cc;
     return (
        
-        <Container fluid>
-            <Row>
-                <Col lg='2'>
-                    
-                </Col>
-                <Col lg='7'>
-                <Card>
+        
+                    <Card className='mb-5 cardbox' style={{ width: '34rem' }}>
       <Card.Header as="h5">What you will learn </Card.Header>
+      <Card.Img variant="top" src={image_url}/>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
@@ -27,12 +23,7 @@ const CourseCard = ({Cc}) => {
         
       </Card.Body>
     </Card>
-                </Col>
-                <Col  lg='2'>
-                <h3>kkk</h3>
-                </Col>
-            </Row>
-        </Container>
+       
         
     );
 };

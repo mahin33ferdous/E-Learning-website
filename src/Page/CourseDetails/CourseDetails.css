@@ -1,0 +1,86 @@
+.cheader1{
+    background-color: rgb(18, 89, 221);
+    
+    align-items: center;
+    padding: 0 10%;
+}
+.Course-header{
+    font-weight: 600px;
+    color: aliceblue;
+}
+.Course-header h1{
+    font-size: 56px;
+    font-weight: 700px;
+}
+
+.courdse-header-info {
+    display: flex;
+    
+    background-color: black;
+    margin-left: 0;
+}
+
+.courdse-header-info p{
+    
+    padding: 0 3px;
+    color: rgb(128, 55, 197);
+}
+.author-name{
+    color: rgb(128, 55, 197); ;
+}
+.course-header-other{
+    display: flex;
+}
+.course-header-other p{
+    padding: 0 9px;
+    color: aliceblue;
+}
+
+.enrollbtn{
+    display: block;
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.course-body{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+.course-content{
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 10px #888888;
+    border: 1px solid rgba(1, 1, 14, 0.082);
+}
+
+.course-content:hover{
+    letter-spacing: 1px;
+    transform: scale(1.03);
+    box-shadow: 0 11px 10px rgba(1, 1, 14, 0.315) ;
+}
+
+@media (max-width:1200px) {
+    .enrollbtn{
+        width: 55%;
+    }
+}
+
+@media(max-width:768px) {
+    .course-header-other p{
+        padding: 0 6px;
+    }
+    .enrollbtn{
+        width: 55%;
+    }
+}
+
+@media(max-width:600px) {
+    .course-header-other{
+        display: block;
+    }
+}
